@@ -13,7 +13,6 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
-
 /**
   *op_sub - returns difference of 2 numbers
   *@a:  integer.
@@ -26,7 +25,6 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 
 /**
   *op_mul - returns product of two numbers.
@@ -56,7 +54,7 @@ int op_div(int a, int b)
 		printf("Error\n");
 		exit(100);
 	}
-        return (a / b);
+	return (a / b);
 }
 
 /**
